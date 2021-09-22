@@ -1,5 +1,6 @@
 // Make connection
 var socket = io.connect('http://localhost:4000');
+var socket = io.connect('https://aqueous-mountain-16622.herokuapp.com/');
 
 // Query DOM
 var message = document.getElementById('message');
